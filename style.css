@@ -1,0 +1,44 @@
+.background {
+    background-image: url(./v882-kul-46.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px);
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+.mail {
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]
+{
+    background-color: transparent;
+    border: 1px solid #8e9092;
+    outline: rgb(59, 59, 85);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width:5px;
+    color:whitesmoke;
+    cursor:auto;
+}
+
+
